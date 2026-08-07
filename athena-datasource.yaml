@@ -1,0 +1,12 @@
+apiVersion: 1
+
+datasources:
+  - name: Athena
+    type: grafana-athena-datasource
+    access: proxy
+    jsonData:
+      authType: default
+      defaultRegion: us-east-1
+      workgroup: air-quality-weather-workgroup
+      database: air_quality_weather_db
+      catalog: awsdatacatalog

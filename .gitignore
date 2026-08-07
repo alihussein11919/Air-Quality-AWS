@@ -1,0 +1,32 @@
+﻿# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temp
+*.zip
+*.log
+
+# Sensitive / test files
+token.txt
+lambda_output.json
+test_firehose*.gz
+*.bak
+*.tfplan
+__pycache__/
