@@ -2,7 +2,7 @@
 
 A serverless, end-to-end data pipeline on AWS that ingests, transforms, and visualizes global air quality and weather forecast data from [OpenAQ](https://openaq.org/) and [NOAA GFS](https://nomads.ncep.noaa.gov/).
 
-![Pipeline Architecture](pipeline.png)
+<img width="1376" height="768" alt="pipeline" src="https://github.com/user-attachments/assets/e9738988-bdee-4d25-8fbd-2da44e8d43a3" />
 
 ## Architecture
 
